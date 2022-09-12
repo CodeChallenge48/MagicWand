@@ -1,0 +1,53 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0.0;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  position: relative;
+}
+
+.rect1 {
+  width: 8vw;
+  height: 70vh;
+  background-color: red;
+}
+
+.rect2 {
+  width: 8vw;
+  transform: rotate(45deg);
+  height: 70vh;
+  background-color: black;
+  position: absolute;
+}
+
+.rect4 {
+  width: 8vw;
+  transform: rotate(135deg);
+  height: 70vh;
+  background-color: black;
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.rect3 {
+  transform: rotate(90deg);
+  width: 8vw;
+  height: 70vh;
+  background-color: red;
+  position: absolute;
+}
+
+.circle {
+  width: 4vw;
+  height: 4vw;
+  border-radius: 8vw;
+  background-color: red;
+}
