@@ -1,0 +1,41 @@
+/* David Kamau BSC Software Engineering, Murang'a University
+Code Challenge Day 2 */
+body{
+    position: absolute;
+    top: 45%;
+    left: 40%;
+    background-color: rgba(0, 255, 255, 0.411);
+}
+
+.rect{
+    position: absolute;
+    width: 300px;
+    height: 60px;
+}
+.circle{
+    position: relative;
+    width: 20px;
+    height: 20px;
+    top: 17px;
+    left: 135px;
+    background-color: rgb(255, 166, 0);
+    border-radius: 50%;
+}
+
+.one{
+    background-color: rgb(255, 166, 0);
+    transform: rotate(90deg);
+}
+.two{
+    background-color: black;
+    transform: rotate(135deg);
+}
+.three{
+    background-color: rgb(255, 166, 0);
+    transform: rotate(0deg);
+}
+.four{
+    background-color: black;
+    transform: rotate(45deg);
+}
+
